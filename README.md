@@ -1,7 +1,15 @@
 # nvm-shell-integration
 
 Shell integration to automatically change node version when changing directories.
-Based on https://github.com/nvm-sh/nvm/tree/0b5bb5ccd875d82e470568b6465d546346e37778#automatically-call-nvm-use but with `.node-version` instead of `.nvmrc`
+Based on https://github.com/nvm-sh/nvm/tree/0b5bb5ccd875d82e470568b6465d546346e37778#automatically-call-nvm-use but with `.node-version` as well as `.nvmrc`
+
+- [nvm-shell-integration](#nvm-shell-integration)
+  - [Install](#install)
+    - [bash](#bash)
+    - [zsh](#zsh)
+  - [Usage](#usage)
+  - [Debug](#debug)
+  - [System Dependencies](#system-dependencies)
 
 ## Install
 
@@ -51,7 +59,7 @@ You need to run "nvm install 12.13.0" to install it before using it.
 
 ## Debug
 
-Logs to STDERR can be enabled by setting and environment variable `NVM_SHELL_INTEGRATION_LOGGER=1`
+Logs to STDERR can be enabled by setting an environment variable `NVM_SHELL_INTEGRATION_LOGGER=1`
 
 ## System Dependencies
 
