@@ -5,7 +5,6 @@ SCRIPT_DIRECTORY=${0%/*}
 _nvm() {
   AUTO_CMD=$(ruby "$SCRIPT_DIRECTORY/nvm-shell-integration.rb")
   if [ ! -z "$AUTO_CMD" ]; then
-    # echo "> $AUTO_CMD"
     eval $AUTO_CMD
   fi
 }

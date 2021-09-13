@@ -8,6 +8,7 @@ Based on https://github.com/nvm-sh/nvm/tree/0b5bb5ccd875d82e470568b6465d546346e3
 Clone this repository with git (or download the zip and extract) to the directory of your choice.
 
 ### bash
+
 Add this to your `~/.bash_profile`
 
 ```
@@ -16,6 +17,7 @@ source $NVM_SHELL_INTEGRATION_PATH/nvm-shell-integration.bash
 ```
 
 ### zsh
+
 Add this to your `~/.zshrc`
 
 ```
@@ -47,6 +49,11 @@ version "12.13.0" is not yet installed.
 You need to run "nvm install 12.13.0" to install it before using it.
 ```
 
+## Debug
+
+Logs to STDERR can be enabled by setting and environment variable `NVM_SHELL_INTEGRATION_LOGGER=1`
+
 ## System Dependencies
+
 - Ruby
 - NVM
